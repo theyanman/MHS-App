@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Morgantown High</string>
+    <string name="action_settings"></string>
+    <string name="title_activity_engrade"></string>
+    <string name="title_activity_announcements"></string>
+    <string name="title_activity_sponsors"></string>
+    <string name="title_activity_bell"></string>
+    <string name="prompt">Select an option:</string>
+    <string-array name="schedule">
+        <item>Normal Day Schedule</item>
+        <item>Extended Advisory Schedule</item>
+        <item>2-Hour Delay Schedule</item>
+        <item>2-Hour Dismissal Schedule</item>
+        <item>3-Hour Delay Schedule</item>
+        <item>Student Lunches</item>
+    </string-array>
+    <string name="title_activity_faculty"></string>
+    <string name="title_activity_calendar"></string>
+    <string name="title_activity_clubs"></string>
+    <string name="title_activity_sports"></string>
+</resources>

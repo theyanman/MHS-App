@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codeforcharity.michaelyanyoga.mhsappredesign.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="&quot;A people building environment&quot;"
+        android:textStyle="italic"
+        android:id="@+id/textView"
+        android:textSize="15dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/announcements"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:paddingRight="5dp"
+                android:background="@null"
+                android:id="@+id/bell"
+                android:src="@drawable/bell"
+
+            />
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:paddingRight="5dp"
+                android:id="@+id/faculty"
+                android:background="@null"
+                android:src="@drawable/faculty"
+                />
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:paddingRight="5dp"
+                android:id="@+id/engrade"
+                android:src="@drawable/engrade"
+                />
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/calendar"
+                android:paddingRight="5dp"
+                android:src="@drawable/calendar"
+                />
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/sports"
+                android:paddingRight="5dp"
+                android:src="@drawable/sports"
+                />
+
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/clubs"
+                android:paddingRight="5dp"
+                android:src="@drawable/clubs"
+                />
+
+            <ImageButton
+                android:layout_width="141dp"
+                android:layout_height="141dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:id="@+id/sponsors"
+                android:src="@drawable/sponsors"
+                />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:layout_width="111dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/mhslogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MORGANTOWN HIGH SCHOOL"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:id="@+id/textView3"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:id="@+id/announcements"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:src="@drawable/announcements1"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp" />
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView5"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

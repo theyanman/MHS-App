@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "674312721497",
+    "firebase_url": "https://mhsapp2-3c06a.firebaseio.com",
+    "project_id": "mhsapp2-3c06a",
+    "storage_bucket": "mhsapp2-3c06a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674312721497:android:f8f5e7bc6d5877da",
+        "android_client_info": {
+          "package_name": "com.codeforcharity.michaelyanyoga.mhsappredesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674312721497-omcgu6vte4euglmc1r1fieu84nfnl6ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgTj-7iP5_g9fovjPxO0cSmUNCDRVCtow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
